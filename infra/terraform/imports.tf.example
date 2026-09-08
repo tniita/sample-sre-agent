@@ -1,0 +1,14 @@
+import {
+  to = azurerm_resource_group.app
+  id = "/subscriptions/${var.subscription_id}/resourceGroups/${var.resource_group_name}"
+}
+
+import {
+  to = azurerm_service_plan.app
+  id = "/subscriptions/${var.subscription_id}/resourceGroups/${var.resource_group_name}/providers/Microsoft.Web/serverFarms/${var.plan_name}"
+}
+
+import {
+  to = azurerm_linux_web_app.app
+  id = "/subscriptions/${var.subscription_id}/resourceGroups/${var.resource_group_name}/providers/Microsoft.Web/sites/${var.web_app_name}"
+}

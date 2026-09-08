@@ -1,0 +1,11 @@
+subscription_id               = "ceb68e54-82cc-47aa-999a-18821f56cf54"
+tenant_id                     = "16b3c013-d300-468d-ac64-7eda0820b6d3"
+resource_group_name           = "rg-cc-vscode-comparison"
+location                      = "japanwest"
+plan_name                     = "cc-vscode-demo-plan-hf4i4u2mifhpi"
+web_app_name                  = "cc-vscode-demo-web-hf4i4u2mifhpi"
+sku_name                      = "B1"
+public_network_access_enabled = true
+resource_tags = {
+  SecurityControl = "Ignore"
+}
