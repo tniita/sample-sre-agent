@@ -27,7 +27,7 @@ const server = http.createServer((req, res) => {
   <main>
     <h1>Hello from Azure App Service</h1>
     <p>Bicep でデプロイした Node.js アプリです。</p>
-    <p>Node ${process.version()} / ${new Date().toISOString()}</p>
+    <p>Node ${process.version} / ${new Date().toISOString()}</p>
     <p><code>/health</code> でヘルスチェックできます。</p>
   </main>
 </body>
