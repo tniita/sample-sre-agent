@@ -9,7 +9,7 @@ const server = http.createServer((req, res) => {
     return;
   }
 
-  res.writeHead(200, { 'Content-Type': 'text/html; charset=utf-8' });
+  res.writeHead(500, { 'Content-Type': 'text/html; charset=utf-8' });
   res.end(`<!doctype html>
 <html lang="ja">
 <head>
